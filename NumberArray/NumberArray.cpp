@@ -1,32 +1,34 @@
 #include <iostream>
 using namespace std;
 
-
-void getNumbers(int arrayNumbers)
-{
-    
-    for (int i =0; i<4;i++)
-    {
-        cout << "write 4 numbers: ";
-        cin>>arrayNumbers;
-    } 
-}
-int printNumbers ()
+class ArraysOfNumbers
 {
     int numbers[4];
-    for (int i =0; i<4;i++)
+public:
+    
+    void getNumbers()
     {
-        cout<< numbers[i]<<endl;
+        for (int i =0; i<4;i++)
+        {
+            cout << "write 4 numbers: ";
+            cin>>numbers[i];
+        } 
     }
-    return *numbers;
-}
+    void printNumbers ()
+    {
+        for (int i =0; i<4;i++)
+        {
+            cout<< numbers[i]<<endl;
+        }
+    }
+};
 int main()
 {
-    int numbers[4];
-    
-    getNumbers(numbers[4]);
+    ArraysOfNumbers arrayNrs;
+    arrayNrs.getNumbers();
     cout << "Your numbers: "<<endl;
-    printNumbers();
+    arrayNrs.printNumbers();
     
     return 0;
 }
+
