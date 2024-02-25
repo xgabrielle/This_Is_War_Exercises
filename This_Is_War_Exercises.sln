@@ -8,6 +8,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrintNumbers", "PrintNumber
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberArray", "NumberArray\NumberArray.vcxproj", "{9C7E8F73-8843-4342-893D-9E8FD495EB3A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructor", "Constructor\Constructor.vcxproj", "{C9E12F7B-0257-48D7-B467-CDE69054BD9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -48,5 +50,13 @@ Global
 		{9C7E8F73-8843-4342-893D-9E8FD495EB3A}.Release|Win32.Build.0 = Release|Win32
 		{9C7E8F73-8843-4342-893D-9E8FD495EB3A}.Release|x64.ActiveCfg = Release|x64
 		{9C7E8F73-8843-4342-893D-9E8FD495EB3A}.Release|x64.Build.0 = Release|x64
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Debug|Win32.Build.0 = Debug|Win32
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Debug|x64.ActiveCfg = Debug|x64
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Debug|x64.Build.0 = Debug|x64
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Release|Win32.ActiveCfg = Release|Win32
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Release|Win32.Build.0 = Release|Win32
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Release|x64.ActiveCfg = Release|x64
+		{C9E12F7B-0257-48D7-B467-CDE69054BD9D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
