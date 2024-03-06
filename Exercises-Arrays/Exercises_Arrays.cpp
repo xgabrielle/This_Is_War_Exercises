@@ -1,4 +1,5 @@
 #include <iostream>
+#include <regex>
 using namespace std;
 /*
  * Create an array that can hold ten integers, and get input from user.
@@ -46,6 +47,7 @@ int main()
  *the array ={1,2,3,4,5,6} and moves a position
  *forward (from u to u+1) each element after the selected index.*/
 
+/*
 int arr[]{1,2,3,4,5,6};
 void NumberProgram( int ind, int num)
 {
@@ -74,4 +76,25 @@ int main()
  cin>>number;
  NumberProgram(indexN,number);
 }
+*/
 
+//Write a program that reverses a string and prints it on the screen.
+
+
+
+int main()
+{
+ char buffer[10];
+ char reversedBuffer[10];
+ cout<<"Enter a word "<<endl;
+ cin>>buffer;
+ int length{};
+ while(buffer[length]!='\0'&&length<10) {length++;}
+ for (int i=0;i<buffer[i];i++)
+ {
+  reversedBuffer[i]=buffer[length-1-i];
+ }
+reversedBuffer[length]='\0';
+ cout<<"Reversed after second loop: "<<reversedBuffer<<endl;
+ cout<<"Input: "<<buffer<<endl;
+}
