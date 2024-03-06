@@ -2,12 +2,31 @@
 #include<iostream>
 using namespace std;
 
+//Write a program that ask for two numbers, compare them and show the maximum.
+//Declare a function called max_two that compares the numbers and returns the maximum.
+
+int Max_Two(int first, int second)
+{
+    int result{};
+    if (first > second){result=first;}
+    else {result=second;}
+    return result;
+}
+
+int main()
+{
+    int numOne=4;
+    int numTwo=12;
+    int largest = Max_Two(numOne,numTwo);
+    cout<<"Between "<<numOne<<" and "<< numTwo<<endl<<"Number "<< largest<<" is the largest number between the two."<<endl;
+}
+
 // Write a program that asks a name say hello.
 // Use your own function, that recives a string of
 // characters (name) and prints on screen the hello message.
 // (Doesn't returns anything- void type)
 
-void SayHello(char name[])
+/*void SayHello(char name[])
 {
     int length{};
     while(name[length]!='\0'&&length<=10){length++;}
@@ -21,7 +40,7 @@ int main()
     cout<< "What's your name? ";
     cin>>name;
     SayHello(name);
-}
+}*/
 
 //------------------------------------------------------------------------------
 
