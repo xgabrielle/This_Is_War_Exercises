@@ -2,10 +2,32 @@
 #include<iostream>
 using namespace std;
 
+//Write a program that asks the user for an integer number and find the sum of all natural numbers upto that number.
+
+void NaturalNumbers(int number)
+{
+    int num{};
+    for (int i =1; i<=number;i++)
+    {
+        num=num+1;
+        cout<<num;
+    }
+    
+}
+int main()
+{
+    int number{};
+    cout<< "Write any number that's higher than 0"<<endl;
+    cin>> number;
+    NaturalNumbers(number);
+}
+
+//--------------------------------------------------------------------------------------------------------------------
+
 //Write a program that ask for two numbers, compare them and show the maximum.
 //Declare a function called max_two that compares the numbers and returns the maximum.
 
-int Max_Two(int first, int second)
+/*int Max_Two(int first, int second)
 {
     int result{};
     if (first > second){result=first;}
@@ -18,8 +40,10 @@ int main()
     int numOne=4;
     int numTwo=12;
     int largest = Max_Two(numOne,numTwo);
-    cout<<"Between "<<numOne<<" and "<< numTwo<<endl<<"Number "<< largest<<" is the largest number between the two."<<endl;
-}
+    cout<<"Between "<<numOne<<" and "<< numTwo<<endl<<
+        "Number "<< largest<<" is the largest number between the two."<<endl;
+}*/
+//---------------------------------------------------------------------------------------------------------------------
 
 // Write a program that asks a name say hello.
 // Use your own function, that recives a string of
@@ -42,7 +66,7 @@ int main()
     SayHello(name);
 }*/
 
-//------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------
 
 // Write a program that calculates 6^5. Declare your own function to do this.
 /*
