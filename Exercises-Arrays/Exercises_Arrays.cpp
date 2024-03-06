@@ -90,7 +90,7 @@ int main()
  cin>>buffer;
  int length{};
  while(buffer[length]!='\0'&&length<10) {length++;}
- for (int i=0;i<buffer[i];i++)
+ for (int i=0;i<length;i++)
  {
   reversedBuffer[i]=buffer[length-1-i];
  }
