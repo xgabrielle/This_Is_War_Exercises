@@ -95,6 +95,7 @@ int main()
   reversedBuffer[i]=buffer[length-1-i];
  }
 reversedBuffer[length]='\0';
- cout<<"Reversed after second loop: "<<reversedBuffer<<endl;
  cout<<"Input: "<<buffer<<endl;
+ cout<<"Input reversed: "<<reversedBuffer<<endl;
+ 
 }
