@@ -8,7 +8,7 @@ using namespace std;
  *Assign the values of 'a' and 'b' to ptrA and ptrB respectively, and display them.
 */
 
-int main()
+/*int main()
 {
     int a{};
     int b{};
@@ -27,4 +27,31 @@ int main()
 
     
     return 0;
+}*/
+// ----------------------------------------------------------------------------------------------
+
+/*Write a C++ program to find the max of an integral data set.
+ *The program will ask the user to input the number of
+ *data values in the set and each value.
+ *The program prints on screen a pointer that points to the max value.
+*/
+
+int main()
+{
+    int max=0;
+    int values[5]{};
+    for(int i =0;i<5;i++)
+    {
+        cin>>values[i];
+    }
+
+    for(int i=0; i<=values[i];i++)
+    {
+        if (values[i]>=max)
+        {
+            max=values[i];
+        }
+    }
+    int *ptr = &max;
+    cout << "Max"<< *ptr;
 }
