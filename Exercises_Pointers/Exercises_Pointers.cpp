@@ -36,7 +36,7 @@ using namespace std;
  *The program prints on screen a pointer that points to the max value.
 */
 
-int main()
+/*int main()
 {
     int max=0;
     int values[5]{};
@@ -54,4 +54,19 @@ int main()
     }
     int *ptr = &max;
     cout << "Max"<< *ptr;
+}*/
+
+// ---------------------------------------------------------------------------------------------
+
+// Take input in variable and display same value by pointer.
+int main()
+{
+    int num{};
+    cout<<"Write a number: ";
+    cin>>num;
+
+    int *ptr;
+    ptr=&num;
+
+    cout<<"You wrote the number: "<< *ptr;
 }
