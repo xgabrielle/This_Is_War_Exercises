@@ -59,7 +59,7 @@ using namespace std;
 // ---------------------------------------------------------------------------------------------
 
 // Take input in variable and display same value by pointer.
-int main()
+/*int main()
 {
     int num{};
     cout<<"Write a number: ";
@@ -69,4 +69,25 @@ int main()
     ptr=&num;
 
     cout<<"You wrote the number: "<< *ptr;
+}*/
+
+// ---------------------------------------------------------------------------------------------
+
+/* Given the string "A string".
+ * " Print on one line the letter on the index 0, the pointer position and the letter t.
+ * update the pointer to pointer +2. Then, in another line print the pointer and
+ * the letters r and g of the string (using the pointer).*/
+
+int main()
+{
+    char string []{"string"};
+    char *first;
+    char *second;
+    first=&string[0];
+    second=&string[1];
+
+    cout<<"First pos: "<<&first<<"\nFirst num: "<<*first<<"\nSecond pos: "<<&second<<"\nSecond: "<<*second<<endl;
+
+    
+    
 }
