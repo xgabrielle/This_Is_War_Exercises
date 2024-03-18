@@ -7,18 +7,28 @@ using namespace std;
 
 void Palindrome(char string[])
 {
-    int *front;
-    int *back;
-    for (int i=0;i<*string;i++)
+    int back;
+    int front;
+    for (back=0;string[back]!= '\0';back++){}
+    back--;
+    for(front=0; front<back;)
     {
-        
+        if(string[front]==string[back])
+        {
+            front++;
+            back--;
+        }
+        else
+        {
+            cout<< "Not Palindrome";
+            return;
+        }
     }
-    cout<<string;
+    cout<<"Word is Palindrome";
 }
 
 int main()
 {
-
     char userInput[20];
     cout<<"Input a word: ";
     cin>>userInput;
