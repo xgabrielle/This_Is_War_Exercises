@@ -18,6 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maths-Exercises", "Maths-Ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercises_Pointers", "Exercises_Pointers\Exercises_Pointers.vcxproj", "{1DD97052-AF85-4507-AE0F-EAC5D941797D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrome-Exercise", "Palindrome-Exercise\Palindrome-Exercise.vcxproj", "{51AC5794-224E-4764-834E-32EDEA10FECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -98,5 +100,13 @@ Global
 		{1DD97052-AF85-4507-AE0F-EAC5D941797D}.Release|Win32.Build.0 = Release|Win32
 		{1DD97052-AF85-4507-AE0F-EAC5D941797D}.Release|x64.ActiveCfg = Release|x64
 		{1DD97052-AF85-4507-AE0F-EAC5D941797D}.Release|x64.Build.0 = Release|x64
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Debug|Win32.Build.0 = Debug|Win32
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Debug|x64.ActiveCfg = Debug|x64
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Debug|x64.Build.0 = Debug|x64
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Release|Win32.ActiveCfg = Release|Win32
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Release|Win32.Build.0 = Release|Win32
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Release|x64.ActiveCfg = Release|x64
+		{51AC5794-224E-4764-834E-32EDEA10FECA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
