@@ -16,8 +16,13 @@ int main(int argc, char* argv[])
     auto iterator = names.begin();
     if(iterator != names.end())
     {
-        cout << *iterator << "\n";
+        for (int i=0; i<names.size();i++)
+        {
+            cout << *iterator << "\n";
+            ++iterator;
+        }
+       
         // to move the iterator forward:
-        ++iterator;
+        
     }
 }
